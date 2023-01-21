@@ -1,0 +1,42 @@
+ 
+.body {
+    box-sizing: border-box;
+    max-width: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: orange;
+    padding: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.photos img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    background-color:rgb(138, 134, 134);
+
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+footer {
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    
+
+}
